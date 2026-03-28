@@ -1,0 +1,12 @@
+input.txt:
+hello world
+
+Console Output:
+Compression Done!
+
+compressed.txt:
+1010100111001110001010
+
+Explanation:
+Original text converted into binary string using Huffman codes
+File size reduced
