@@ -11,6 +11,7 @@ The program reads the original text data from a file instead of hardcoding it.
 What happens:
 -> Open input.txt
 -> Read its contents into a string
+
 Why is it important:
 -> Makes your program work with real files (not just sample strings)
 -> More practical and scalable
@@ -24,6 +25,7 @@ What happens:
 -> Assign binary codes:
 -> Frequent characters → shorter codes
 -> Rare characters → longer codes
+
 Why is it important:
 -> Reduces total number of bits needed
 -> Achieves compression
@@ -35,6 +37,7 @@ What happens:
 -> Replace each character with its Huffman code
 -> Combine into a binary string
 -> Write it to compressed.txt
+
 Why is it important:
 -> This is your compressed data
 -> Can be stored/transmitted efficiently
