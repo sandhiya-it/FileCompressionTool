@@ -1,0 +1,40 @@
+LEVEL 1 — File Input + Save Compressed File
+
+Features
+-> Read from file (input.txt)
+-> Generate Huffman codes
+-> Save compressed output (compressed.txt)
+
+
+1. Read from file (input.txt)
+The program reads the original text data from a file instead of hardcoding it.
+What happens:
+-> Open input.txt
+-> Read its contents into a string
+Why is it important:
+-> Makes your program work with real files (not just sample strings)
+-> More practical and scalable
+
+
+2. Generate Huffman Codes
+This is the core step using Huffman Coding
+What happens:
+-> Count frequency of each character
+-> Build a Huffman Tree using a min-heap
+-> Assign binary codes:
+-> Frequent characters → shorter codes
+-> Rare characters → longer codes
+Why is it important:
+-> Reduces total number of bits needed
+-> Achieves compression
+
+
+3. Save compressed output (compressed.txt)
+Convert original text into encoded binary string and store it.
+What happens:
+-> Replace each character with its Huffman code
+-> Combine into a binary string
+-> Write it to compressed.txt
+Why is it important:
+-> This is your compressed data
+-> Can be stored/transmitted efficiently
