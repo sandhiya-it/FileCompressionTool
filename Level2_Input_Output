@@ -1,0 +1,18 @@
+input.txt:
+data compression
+
+
+Console Output:
+Compression & Decompression Done!
+
+
+compressed.txt:
+110010101011000111010
+
+
+decompressed.txt:
+data compression
+
+
+Key Highlight:
+Original text = Decompressed text (correctness verified)
