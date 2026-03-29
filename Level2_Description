@@ -1,0 +1,38 @@
+LEVEL 2 — Decompression + Binary Handling
+
+
+Features
+-> Decode compressed file
+-> Save decompressed output
+-> Simulates binary handling
+
+
+1. Decode compressed file
+Convert the compressed binary data back to the original text.
+What happens:
+-> Read the encoded data (e.g., 01011) from compressed.txt
+-> Traverse the Huffman Tree:
+   -> 0 → go left
+   -> 1 → go right
+-> When you reach a leaf node → you found a character
+Why is it important:
+-> Compression is useless unless you can recover the original data
+
+
+2. Save decompressed output
+Store the decoded (original) text into a file.
+What happens:
+-> After decoding, write the result into decompressed.txt
+Why is it important:
+-> Confirms correctness
+-> Lets you compare original vs decompressed file
+
+
+3. Simulates binary handling
+You are mimicking how real systems handle binary data.
+What happens:
+-> You store encoded data as a string like "010101"
+-> Treat each character (0/1) as a binary bit
+Why it’s called “simulation”:
+-> Real systems store bits in binary format (.bin)
+-> Your version uses text → easier to implement
