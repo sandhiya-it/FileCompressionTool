@@ -1,0 +1,16 @@
+After clicking "Select File"
+
+
+File chooser opens → user selects
+input.txt
+
+
+Popup Message
+Compression Done!
+Ratio: 0.45
+
+
+Example Calculation
+Original size = 100 characters  
+Compressed size = 45 characters  
+Compression Ratio = 0.45
