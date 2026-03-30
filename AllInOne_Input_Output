@@ -1,0 +1,13 @@
+## Sample Output
+
+Input:
+hello world
+
+Compressed:
+1010100111001110001010
+
+Decompressed:
+hello world
+
+Compression Ratio:
+0.45
