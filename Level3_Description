@@ -1,0 +1,48 @@
+LEVEL 3 — Advanced (GUI + Compression Ratio)
+
+Features
+-> Java Swing GUI
+-> File selection
+-> Compression ratio display
+-> Supports multiple files
+
+
+1. Java Swing GUI
+A graphical interface built using Java Swing instead of terminal output.
+What it does:
+-> Opens a window (frame)
+-> Adds buttons, labels, dialogs
+-> Allows user interaction via clicks
+Why is it important:
+-> Makes your project user-friendly
+-> Looks professional on GitHub
+
+
+2. File Selection
+Lets the user choose a file from their system.
+What it does:
+-> Uses file chooser dialog (JFileChooser)
+-> User selects any file (e.g., .txt)
+-> Program reads that file
+Why is it important:
+-> No need to hardcode file paths
+-> Works with real user data
+
+
+3. Compression Ratio Display
+Shows how effective your compression is.
+Formula:
+-> Compression Ratio = Compressed Size / Original Size
+Why is it important:
+-> Demonstrates performance
+-> Very useful in interviews
+
+
+4. Supports Multiple Files
+Allows processing more than one file.
+What it does:
+-> User can select multiple files
+-> Loop through each file and compress it
+Why is it important:
+-> Makes your tool more powerful
+-> Closer to real-world applications
